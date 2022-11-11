@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .striped div.section:nth-child(even) {
+    @apply dark:bg-zinc-700 bg-zinc-300;
+  }
+}
+
+.App {
+  min-height: 100vh;
+}
